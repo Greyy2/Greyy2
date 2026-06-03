@@ -1,9 +1,8 @@
 <div align="center">
 
-<!-- Header animated banner (hosted on GitHub itself) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Grey&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI%20Developer%20%7C%20Student%20%40%20ICTU&descAlignY=58&descSize=22" width="100%" alt="Grey AI developer header" />
+<img src="./assets/header.gif" width="100%" alt="Grey AI developer header" />
 
-<br>
+<br><br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=24&duration=3000&pause=1000&color=BB86FC&center=true&vCenter=true&width=800&lines=AI+Developer;Student+at+ICTU;Building+AI+Systems;Frontend+%2B+Backend+Engineer" alt="Typing introduction" />
 
@@ -89,19 +88,18 @@
 
 <div align="center">
 
-<!-- Row 1: Stats + Streak side by side -->
-<p>
-  <img height="170px" src="https://github-readme-stats-eight-beta-78.vercel.app/api?username=Greyy2&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=F78166" alt="GitHub stats" />
-  <img height="170px" src="https://github-readme-streak-stats.herokuapp.com?user=Greyy2&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=BC8CFF&fire=F78166&currStreakLabel=58A6FF" alt="GitHub streak" />
-</p>
+<!-- Shields.io badges: cực kỳ stable, không bao giờ rate-limit -->
+![Followers](https://img.shields.io/github/followers/Greyy2?style=for-the-badge&color=BC8CFF&labelColor=0D1117&logo=github)
+![Stars](https://img.shields.io/github/stars/Greyy2?style=for-the-badge&color=58A6FF&labelColor=0D1117&logo=github&label=Total%20Stars)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FGreyy2&query=public_repos&style=for-the-badge&color=F78166&labelColor=0D1117&logo=github&label=Public%20Repos)
 
-<!-- Row 2: Top langs -->
-<p>
-  <img width="40%" src="https://github-readme-stats-eight-beta-78.vercel.app/api/top-langs/?username=Greyy2&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top languages" />
-</p>
+<br>
 
-<!-- Row 3: Activity graph -->
+<!-- Activity graph: đang hoạt động tốt -->
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Greyy2&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=BC8CFF&point=F78166&area=true&area_color=BC8CFF" alt="Contribution activity graph" />
+
+<!-- Trophies: stable service -->
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Greyy2&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" />
 
 </div>
 
