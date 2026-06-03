@@ -92,6 +92,17 @@
 
 <div align="center">
 
-<img src="./profile/stats.svg" width="98%" alt="Grey GitHub stats" />
+<p>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Greyy2&show_icons=true&theme=tokyonight&hide_border=true&locale=vi&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=F78166" alt="GitHub stats" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=Greyy2&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub streak" />
+</p>
+
+<p>
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Greyy2&layout=compact&theme=tokyonight&hide_border=true&locale=vi&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top languages" />
+</p>
+
+<p>
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Greyy2&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=BC8CFF&point=F78166" alt="Contribution activity graph" />
+</p>
 
 </div>
