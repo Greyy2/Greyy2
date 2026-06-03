@@ -88,24 +88,11 @@
 
 <div align="center">
 
-<table border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td align="center" valign="top">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Greyy2&theme=tokyonight" alt="GitHub stats" />
-    </td>
-    <td align="center" valign="top">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Greyy2&theme=tokyonight&utcOffset=7" alt="Productive time" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Greyy2&theme=tokyonight" alt="Top languages" />
-    </td>
-    <td align="center" valign="top">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Greyy2&theme=tokyonight" alt="Profile Details" />
-    </td>
-  </tr>
-</table>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Greyy2&theme=tokyonight" alt="GitHub Stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Greyy2&theme=tokyonight&utcOffset=7" alt="Productive Time" />
+<br>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Greyy2&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=F78166" alt="GitHub Rank" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Greyy2&theme=tokyonight" alt="Profile Details" />
 
 </div>
 
