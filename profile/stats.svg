@@ -13,18 +13,28 @@
       <stop offset="0%" stop-color="#F87171" stop-opacity=".92"/>
       <stop offset="100%" stop-color="#F87171" stop-opacity=".18"/>
     </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-8%" y="-12%" width="116%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity=".32"/>
+    </filter>
     <style>
       .title { fill: #FFFFFF; font: 700 22px 'Segoe UI', Ubuntu, sans-serif; }
       .label { fill: #8B949E; font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: .3px; }
       .value { fill: #FFFFFF; font: 800 30px 'Segoe UI', Ubuntu, sans-serif; }
       .small { fill: #C9D1D9; font: 500 12px 'Segoe UI', Ubuntu, sans-serif; }
       .tiny { fill: #8B949E; font: 500 10px 'Segoe UI', Ubuntu, sans-serif; }
-      .card { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
+      .card { fill: #0D1117; stroke: #30363D; stroke-width: 1; filter: url(#shadow); }
       .grid { stroke: #30363D; stroke-width: 1; opacity: .55; }
     </style>
   </defs>
 
   <rect width="980" height="470" fill="url(#bg)" rx="8"/>
+  <circle cx="830" cy="80" r="180" fill="url(#glow)"/>
+  <circle cx="120" cy="395" r="160" fill="url(#glow)"/>
+  <rect x="1" y="1" width="978" height="468" fill="none" stroke="#30363D" stroke-width="1" rx="8"/>
   <text x="24" y="34" class="title">Stats</text>
   <line x1="24" y1="50" x2="956" y2="50" class="grid"/>
 
@@ -44,19 +54,20 @@
 
   <g transform="translate(520 72)">
     <rect class="card" width="436" height="130" rx="6"/>
-    <text x="20" y="30" class="title" font-size="16"># GitHub Stats</text>
+    <text x="20" y="30" class="title" font-size="16"># GitHub Stats ✅</text>
     <text x="20" y="58" class="small">Total Stars Earned: 0</text>
     <text x="20" y="78" class="small">Total Repositories: 3</text>
     <text x="20" y="98" class="small">Total Followers: 0</text>
     <text x="20" y="118" class="small">Public Profile: Grey</text>
     <circle cx="358" cy="68" r="42" fill="none" stroke="#30363D" stroke-width="8"/>
     <path d="M358 26 A42 42 0 1 1 326 96" fill="none" stroke="#C9D1D9" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="358" cy="68" r="30" fill="#111827" stroke="#30363D"/>
     <text x="358" y="76" text-anchor="middle" class="value" font-size="24">A+</text>
   </g>
 
   <g transform="translate(24 226)">
     <rect class="card" width="290" height="122" rx="6"/>
-    <text x="18" y="28" class="title" font-size="15"># Most Used Languages</text>
+    <text x="18" y="28" class="title" font-size="15"># Most Used Languages 🔥</text>
     <rect x="18" y="48" width="210" height="8" fill="#1F2937" rx="4"/>
     <rect x="18" y="48" width="70" height="8" fill="#F59E0B" rx="4"/>
     <rect x="88" y="48" width="70" height="8" fill="#58A6FF"/>

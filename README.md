@@ -1,10 +1,14 @@
 <div align="center">
 
-<a href="https://pin.it/3FlDOc6dG">
-<img src="https://img.shields.io/badge/Watch%20Pinterest%20Video-111111?style=for-the-badge&logo=pinterest&logoColor=E60023" alt="Pinterest video" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:312E81,100:0D1117&height=210&section=header&text=Grey&fontSize=54&fontColor=FFFFFF&desc=AI%20Developer%20%7C%20ICTU%20Student%20%7C%20Building%20AI%20Systems&descAlignY=70&descSize=17&animation=twinkling" width="100%" alt="Grey AI developer banner" />
 
 <br>
+
+<a href="https://pin.it/3FlDOc6dG">
+<img src="https://img.shields.io/badge/Pinterest%20Reference-111111?style=for-the-badge&logo=pinterest&logoColor=E60023" alt="Pinterest reference" />
+</a>
+
+<br><br>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=BB86FC&center=true&vCenter=true&width=800&lines=AI+Developer;Student+at+ICTU;Building+AI+Systems;Frontend+%2B+Backend+Engineer" alt="Typing introduction" />
 
