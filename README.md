@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:312E81,100:0D1117&height=210&section=header&text=Grey&fontSize=54&fontColor=FFFFFF&desc=AI%20Developer%20%7C%20ICTU%20Student%20%7C%20Building%20AI%20Systems&descAlignY=70&descSize=17&animation=twinkling" width="100%" alt="Grey AI developer banner" />
+<a href="https://pin.it/3FlDOc6dG">
+<img src="./assets/header.gif" width="100%" alt="Grey AI developer header" />
+</a>
 
 <br>
 
-<a href="https://pin.it/3FlDOc6dG">
-<img src="https://img.shields.io/badge/Pinterest%20Reference-111111?style=for-the-badge&logo=pinterest&logoColor=E60023" alt="Pinterest reference" />
-</a>
+<sub>Background GIF reference: <a href="https://pin.it/3FlDOc6dG">Pinterest</a></sub>
 
 <br><br>
 
@@ -49,6 +49,30 @@
 </a>
 
 </p>
+
+# Achievements 🏆
+
+<div align="center">
+
+<a href="https://github.com/Greyy2?achievement=pair-extraordinaire&tab=achievements">
+<img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="64" alt="Achievement: Pair Extraordinaire" />
+</a>
+&nbsp;
+<a href="https://github.com/Greyy2?achievement=yolo&tab=achievements">
+<img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="64" alt="Achievement: YOLO" />
+</a>
+&nbsp;
+<a href="https://github.com/Greyy2?achievement=pull-shark&tab=achievements">
+<img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="64" alt="Achievement: Pull Shark" />
+</a>
+&nbsp;
+<a href="https://github.com/Greyy2?achievement=arctic-code-vault-contributor&tab=achievements">
+<img src="https://github.githubassets.com/assets/arctic-code-vault-contributor-default-df8d74122a06.png" width="64" alt="Achievement: Arctic Code Vault Contributor" />
+</a>
+
+</div>
+
+---
 
 # About Me. 🧠
 
