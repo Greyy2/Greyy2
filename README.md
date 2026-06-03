@@ -66,36 +66,25 @@
 
 <div align="center">
 
-<table align="center" border="0" cellpadding="8" cellspacing="0" width="100%">
+<!-- STATS:START -->
+<table align="center">
 	<tr>
-		<td align="center" width="50%">
-			<a href="https://git.io/streak-stats">
-				<img src="https://github-readme-streak-stats.herokuapp.com/?user=Greyy2&theme=dark&hide_border=false&background=0D1117&border=30363D&stroke=30363D&ring=F59E0B&fire=F59E0B&currStreakNum=F59E0B&sideNums=FFFFFF&currStreakLabel=F59E0B&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak" width="100%" />
-			</a>
-		</td>
-		<td align="center" width="50%">
-			<a href="https://github.com/anuraghazra/github-readme-stats">
-				<img src="https://github-readme-stats.vercel.app/api?username=Greyy2&show_icons=true&theme=dark&hide_border=false&bg_color=0D1117&border_color=30363D&title_color=FFFFFF&text_color=C9D1D9&icon_color=22C55E&rank_icon=github&include_all_commits=true&show=reviews,prs_merged&line_height=24&card_width=420&border_radius=4" alt="GitHub stats" width="100%" />
-			</a>
-		</td>
+		<td align="center"><b>⭐ Stars</b><br/>—</td>
+		<td align="center"><b>📦 Public Repos</b><br/>—</td>
+		<td align="center"><b>🍴 Forks</b><br/>—</td>
+		<td align="center"><b>👥 Followers</b><br/>—</td>
+	</tr>
+	<tr>
+		<td align="center"><b>🤝 Following</b><br/>—</td>
+		<td align="center"><b>🧠 Contributions (last year)</b><br/>—</td>
+		<td align="center"><b>🛠️ PRs (last year)</b><br/>—</td>
+		<td align="center"><b>🐛 Issues (last year)</b><br/>—</td>
 	</tr>
 </table>
 
-<table align="center" border="0" cellpadding="8" cellspacing="0" width="100%">
-	<tr>
-		<td align="center" width="35%">
-			<a href="https://github.com/anuraghazra/github-readme-stats">
-				<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Greyy2&layout=compact&langs_count=8&theme=dark&hide_border=false&bg_color=0D1117&border_color=30363D&title_color=FFFFFF&text_color=C9D1D9&card_width=260&border_radius=4" alt="Most used languages" width="100%" />
-			</a>
-		</td>
-		<td align="center" width="65%">
-			<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-				<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Greyy2&theme=github_dark" alt="Profile details" width="100%" />
-			</a>
-		</td>
-	</tr>
-</table>
-
-<img width="98%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:4F46E5,100:C026D3&height=80&section=footer&reversal=false" alt="Stats wave" />
+<p align="center"><b>Commits (last year):</b> — • <b>Reviews (last year):</b> —</p>
+<p align="center"><b>Top languages (by repo):</b> —</p>
+<p align="center"><sub>Last updated: —</sub></p>
+<!-- STATS:END -->
 
 </div>
