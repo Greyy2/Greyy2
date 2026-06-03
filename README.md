@@ -1,12 +1,6 @@
 <div align="center">
 
-<a href="https://pin.it/2G6pTUviH">
 <img src="./assets/header.gif" width="100%" alt="Grey AI developer header" />
-</a>
-
-<br>
-
-<sub>Click the header to watch the Pinterest video reference.</sub>
 
 <br><br>
 
