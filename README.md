@@ -1,136 +1,89 @@
+```md
 <div align="center">
 
-<img src="./git.png" alt="Grey banner" width="100%" />
+<img src="./git.png" width="100%" />
 
-<h1>Grey</h1>
+<br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=900&color=FFFFFF&background=000000&center=true&vCenter=true&width=760&lines=AI+Developer;Student+at+ICTU;From+Thai+Nguyen,+Viet+Nam;Building+AI+Tools,+Workflows,+and+Research+Prototypes" alt="Typing introduction" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=BB86FC&center=true&vCenter=true&width=800&lines=AI+Developer;Student+at+ICTU;Building+AI+Systems;Frontend+%2B+Backend+Engineer" />
 
-<br />
-<br />
-
-<a href="mailto:dtc225180347@ictu.edu.vn">
-  <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
-</a>
-<a href="https://github.com/Grey20981">
-  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=Grey20981&style=for-the-badge&color=000000&label=Profile+Views" alt="Profile views" />
-
-</div>
-
----
-
-## Connect With Me
-
-<div align="center">
+<br><br>
 
 <a href="mailto:dtc225180347@ictu.edu.vn">
-  <img src="https://img.shields.io/badge/Gmail-000000?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail" />
+<img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
 </a>
+
 <a href="https://github.com/Grey20981">
-  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
 <a href="https://github.com/Grey20981?tab=repositories">
-  <img src="https://img.shields.io/badge/Projects-000000?style=for-the-badge&logo=githubactions&logoColor=58A6FF" alt="Projects" />
+<img src="https://img.shields.io/badge/Projects-111111?style=for-the-badge&logo=githubactions&logoColor=58A6FF"/>
 </a>
 
-</div>
-
----
-
-## About Me
-
-<table>
-  <tr>
-    <td width="60%" valign="top">
-
-- I am an **AI Developer** from **Thai Nguyen, Viet Nam**.
-- I am currently a **student at ICTU**.
-- I build **AI tools, intelligent workflows, automation systems, and research prototypes**.
-- I focus on practical products with clean interfaces, reliable backend logic, and measurable results.
-- I am open to collaboration on AI development, applied machine learning, automation, and research-driven software.
-- You can reach me at **dtc225180347@ictu.edu.vn**.
-
-    </td>
-    <td width="40%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Grey20981&layout=donut&theme=github_dark&bg_color=000000&title_color=ffffff&text_color=c9d1d9&hide_border=true&langs_count=6" alt="Top languages donut chart" />
-    </td>
-  </tr>
-</table>
-
----
-
-## AI Development Stack
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
-      <br />
-      AI, ML, automation
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
-      <br />
-      AI backend services
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-      <br />
-      AI dashboards
-    </td>
-    <td align="center" width="25%">
-      <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-      <br />
-      Data workflows
-    </td>
-  </tr>
-</table>
+<img src="https://komarev.com/ghpvc/?username=Grey20981&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
 
 </div>
 
 ---
 
-## Stats
+# Connect with me. 😎
 
-<div align="center">
+<p align="left">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Grey20981&theme=github_dark" alt="GitHub profile details" width="98%" />
+<a href="mailto:dtc225180347@ictu.edu.vn">
+<img src="https://img.shields.io/badge/EMAIL-1A1A1A?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+</a>
 
-<br />
-<br />
+<a href="https://github.com/Grey20981">
+<img src="https://img.shields.io/badge/GITHUB-1A1A1A?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Grey20981&show_icons=true&theme=github_dark&bg_color=000000&title_color=ffffff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true&rank_icon=github" alt="GitHub stats" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Grey20981&theme=github-dark-blue&background=000000&hide_border=true&ring=58A6FF&fire=F97316&currStreakLabel=FFFFFF" alt="GitHub streak" width="49%" />
+<a href="https://github.com/Grey20981">
+<img src="https://img.shields.io/badge/LINKEDIN-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
+</a>
 
-<br />
-<br />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Grey20981&layout=compact&theme=github_dark&bg_color=000000&title_color=ffffff&text_color=c9d1d9&hide_border=true&langs_count=10" alt="Most used languages" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Grey20981&theme=github_dark&utcOffset=7" alt="Productive time" width="49%" />
+<img align="right" width="220" src="./avatar.gif"/>
 
-<br />
-<br />
+# About Me. 🧠
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Grey20981&bg_color=000000&color=ffffff&line=58a6ff&point=f97316&area=true&area_color=111827&hide_border=true" alt="Contribution activity graph" width="98%" />
+- 💻 AI Developer from Thai Nguyen, Viet Nam.
+- 🎓 Student at ICTU.
+- 🚀 Building AI tools, automation systems, and intelligent workflows.
+- ⚡ Focused on frontend architecture and backend optimization.
+- 🧠 Exploring machine learning and applied AI systems.
+- 🎨 Interested in modern UI/UX and interactive experiences.
+- 🤝 Open for collaboration on AI and software projects.
+- 📫 Contact: **dtc225180347@ictu.edu.vn**
 
-</div>
+<br>
+<br>
 
 ---
 
-## Current Focus
+# Stats 📊
 
 <div align="center">
 
-| Area | What I Build |
-| :--- | :--- |
-| **AI Development** | AI tools, intelligent workflows, applied systems |
-| **Machine Learning** | Experiments, model pipelines, automation logic |
-| **AI Backend** | APIs, data services, task orchestration |
-| **Research Prototypes** | Practical experiments, benchmarks, product ideas |
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Grey20981&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Grey20981&theme=tokyonight&hide_border=true&background=0D1117"/>
+
+<br><br>
+
+<img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Grey20981&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+<img width="64%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Grey20981&theme=tokyonight"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Grey20981&theme=tokyo-night&hide_border=true&bg_color=0D1117"/>
 
 </div>
 
@@ -138,8 +91,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111827,100:000000&height=110&section=footer&animation=fadeIn" alt="Footer wave" />
-
-<img src="https://img.shields.io/badge/Thanks%20for%20visiting-000000?style=for-the-badge&logo=githubsponsors&logoColor=F97316" alt="Thanks for visiting" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A5ACD,50:8A2BE2,100:FF00FF&height=120&section=footer"/>
 
 </div>
+```
