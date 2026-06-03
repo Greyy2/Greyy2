@@ -88,18 +88,24 @@
 
 <div align="center">
 
-<!-- Shields.io badges: cực kỳ stable, không bao giờ rate-limit -->
-![Followers](https://img.shields.io/github/followers/Greyy2?style=for-the-badge&color=BC8CFF&labelColor=0D1117&logo=github)
-![Stars](https://img.shields.io/github/stars/Greyy2?style=for-the-badge&color=58A6FF&labelColor=0D1117&logo=github&label=Total%20Stars)
-![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FGreyy2&query=public_repos&style=for-the-badge&color=F78166&labelColor=0D1117&logo=github&label=Public%20Repos)
-
-<br>
-
-<!-- Activity graph: đang hoạt động tốt -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Greyy2&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=BC8CFF&point=F78166&area=true&area_color=BC8CFF" alt="Contribution activity graph" />
-
-<!-- Trophies: stable service -->
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Greyy2&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies" />
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github-readme-streak-stats.herokuapp.com?user=Greyy2&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=BC8CFF&fire=F78166&currStreakLabel=58A6FF" alt="GitHub streak" />
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=Greyy2&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=F78166" alt="GitHub stats" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Greyy2&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top languages" />
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Greyy2&theme=tokyonight" alt="Profile Details" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
