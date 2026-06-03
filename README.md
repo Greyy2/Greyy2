@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Greyy2/Greyy2/main/git.png" width="100%" alt="Grey banner" />
+<img src="./git.png" width="100%" alt="Grey banner" />
 
 <br>
 
@@ -44,7 +44,7 @@
 
 </p>
 
-<img align="right" width="220" src="https://github.com/Greyy2.png?size=220" alt="Grey avatar" />
+<img align="right" width="220" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" alt="Grey avatar" />
 
 # About Me. 🧠
 
