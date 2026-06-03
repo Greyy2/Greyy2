@@ -1,27 +1,26 @@
-```md
 <div align="center">
 
-<img src="./git.png" width="100%" />
+<img src="./git.png" width="100%" alt="Grey banner" />
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=BB86FC&center=true&vCenter=true&width=800&lines=AI+Developer;Student+at+ICTU;Building+AI+Systems;Frontend+%2B+Backend+Engineer" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=24&duration=3000&pause=1000&color=BB86FC&center=true&vCenter=true&width=800&lines=AI+Developer;Student+at+ICTU;Building+AI+Systems;Frontend+%2B+Backend+Engineer" alt="Typing introduction" />
 
 <br><br>
 
 <a href="mailto:dtc225180347@ictu.edu.vn">
-<img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+<img src="https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail" />
 </a>
 
 <a href="https://github.com/Grey20981">
-<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 <a href="https://github.com/Grey20981?tab=repositories">
-<img src="https://img.shields.io/badge/Projects-111111?style=for-the-badge&logo=githubactions&logoColor=58A6FF"/>
+<img src="https://img.shields.io/badge/Projects-111111?style=for-the-badge&logo=githubactions&logoColor=58A6FF" alt="Projects" />
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=Grey20981&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=Grey20981&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
@@ -32,20 +31,20 @@
 <p align="left">
 
 <a href="mailto:dtc225180347@ictu.edu.vn">
-<img src="https://img.shields.io/badge/EMAIL-1A1A1A?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+<img src="https://img.shields.io/badge/EMAIL-1A1A1A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
 </a>
 
 <a href="https://github.com/Grey20981">
-<img src="https://img.shields.io/badge/GITHUB-1A1A1A?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GITHUB-1A1A1A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 <a href="https://github.com/Grey20981">
-<img src="https://img.shields.io/badge/LINKEDIN-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/>
+<img src="https://img.shields.io/badge/LINKEDIN-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
 </a>
 
 </p>
 
-<img align="right" width="220" src="./avatar.gif"/>
+<img align="right" width="220" src="https://github.com/Grey20981.png?size=220" alt="Grey avatar" />
 
 # About Me. 🧠
 
@@ -67,15 +66,15 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Grey20981&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Grey20981&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub stats" />
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Grey20981&theme=tokyonight&hide_border=true&background=0D1117"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Grey20981&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub streak" />
 
 <br><br>
 
-<img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Grey20981&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+<img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Grey20981&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Most used languages" />
 
-<img width="64%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Grey20981&theme=tokyonight"/>
+<img width="64%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Grey20981&theme=tokyonight" alt="Profile details" />
 
 </div>
 
@@ -83,7 +82,7 @@
 
 <div align="center">
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Grey20981&theme=tokyo-night&hide_border=true&bg_color=0D1117"/>
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Grey20981&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Contribution activity graph" />
 
 </div>
 
@@ -91,7 +90,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A5ACD,50:8A2BE2,100:FF00FF&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A5ACD,50:8A2BE2,100:FF00FF&height=120&section=footer" alt="Footer wave" />
 
 </div>
-```
