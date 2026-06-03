@@ -1,0 +1,138 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats SVG
+        uses: actions/github-script@v7
+        env:
+          STATS_USERNAME: Greyy2
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            const username = process.env.STATS_USERNAME;
+            const workspace = process.env.GITHUB_WORKSPACE;
+            const outputDir = path.join(workspace, 'profile');
+            const outputFile = path.join(outputDir, 'stats.svg');
+            const formatter = new Intl.NumberFormat('en-US');
+
+            const escapeXml = (value) =>
+              String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+
+            const { data: user } = await github.rest.users.getByUsername({ username });
+            const repos = await github.paginate(github.rest.repos.listForUser, {
+              username,
+              type: 'owner',
+              per_page: 100,
+              sort: 'updated',
+            });
+
+            const publicRepos = repos.filter((repo) => !repo.fork);
+            const stars = publicRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+            const forks = publicRepos.reduce((sum, repo) => sum + repo.forks_count, 0);
+            const topRepos = publicRepos.slice(0, 4).map((repo) => repo.name).join(' / ') || 'No public repositories yet';
+            const updated = new Date().toISOString().replace('T', ' ').replace(/\.\d+Z$/, ' UTC');
+
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="Grey GitHub stats">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="52%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#C026D3"/>
+    </linearGradient>
+    <style>
+      .title { fill: #FFFFFF; font: 700 24px 'Segoe UI', Ubuntu, sans-serif; }
+      .label { fill: #8B949E; font: 600 12px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: .4px; text-transform: uppercase; }
+      .value { fill: #FFFFFF; font: 700 30px 'Segoe UI', Ubuntu, sans-serif; }
+      .small { fill: #C9D1D9; font: 500 13px 'Segoe UI', Ubuntu, sans-serif; }
+      .muted { fill: #8B949E; font: 500 12px 'Segoe UI', Ubuntu, sans-serif; }
+      .card { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="980" height="360" fill="url(#bg)" rx="8"/>
+  <rect x="0" y="0" width="980" height="4" fill="url(#accent)"/>
+
+  <text x="28" y="42" class="title">Grey GitHub Stats</text>
+  <text x="28" y="66" class="muted">Generated from public GitHub data for @${escapeXml(username)}</text>
+
+  <g transform="translate(28 92)">
+    <rect class="card" width="216" height="104" rx="7"/>
+    <text x="22" y="34" class="label">Public Repos</text>
+    <text x="22" y="76" class="value">${formatter.format(user.public_repos)}</text>
+  </g>
+
+  <g transform="translate(260 92)">
+    <rect class="card" width="216" height="104" rx="7"/>
+    <text x="22" y="34" class="label">Stars Earned</text>
+    <text x="22" y="76" class="value">${formatter.format(stars)}</text>
+  </g>
+
+  <g transform="translate(492 92)">
+    <rect class="card" width="216" height="104" rx="7"/>
+    <text x="22" y="34" class="label">Forks</text>
+    <text x="22" y="76" class="value">${formatter.format(forks)}</text>
+  </g>
+
+  <g transform="translate(724 92)">
+    <rect class="card" width="228" height="104" rx="7"/>
+    <text x="22" y="34" class="label">Followers</text>
+    <text x="22" y="76" class="value">${formatter.format(user.followers)}</text>
+  </g>
+
+  <g transform="translate(28 218)">
+    <rect class="card" width="300" height="86" rx="7"/>
+    <text x="22" y="34" class="label">Following</text>
+    <text x="22" y="67" class="value">${formatter.format(user.following)}</text>
+  </g>
+
+  <g transform="translate(350 218)">
+    <rect class="card" width="602" height="86" rx="7"/>
+    <text x="22" y="34" class="label">Top Public Repositories</text>
+    <text x="22" y="63" class="small">${escapeXml(topRepos)}</text>
+  </g>
+
+  <path d="M0 330 C180 300 290 346 480 322 C650 301 775 338 980 310 L980 360 L0 360 Z" fill="url(#accent)" opacity=".85"/>
+  <text x="28" y="342" class="muted">Last updated: ${escapeXml(updated)}</text>
+</svg>`;
+
+            fs.mkdirSync(outputDir, { recursive: true });
+            fs.writeFileSync(outputFile, svg);
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg
+          git commit -m "chore: update profile stats"
+          git push

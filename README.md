@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://www.pinterest.com/pin/7670261861427920/">
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/c288471c-be67-4fbb-af44-1c63ee9ed280" width="100%" alt="Grey animated banner" />
+<img src="https://img.shields.io/badge/Watch%20Pinterest%20Video-111111?style=for-the-badge&logo=pinterest&logoColor=E60023" alt="Pinterest video" />
 </a>
 
 <br>
@@ -68,26 +68,6 @@
 
 <div align="center">
 
-<a href="https://git.io/streak-stats">
-<img width="44%" src="https://github-readme-streak-stats.herokuapp.com/?user=Greyy2&theme=dark&hide_border=false&background=0D1117&border=30363D&stroke=30363D&ring=F59E0B&fire=F59E0B&currStreakNum=F59E0B&sideNums=FFFFFF&currStreakLabel=F59E0B&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak" />
-</a>
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-<img width="44%" src="https://github-readme-stats.vercel.app/api?username=Greyy2&show_icons=true&theme=dark&hide_border=false&bg_color=0D1117&border_color=30363D&title_color=FFFFFF&text_color=C9D1D9&icon_color=22C55E&rank_icon=github&include_all_commits=true&show=reviews,prs_merged&line_height=24&card_width=420&border_radius=4" alt="GitHub stats" />
-</a>
-
-<br>
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-<img width="29%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Greyy2&layout=compact&langs_count=8&theme=dark&hide_border=false&bg_color=0D1117&border_color=30363D&title_color=FFFFFF&text_color=C9D1D9&card_width=260&border_radius=4" alt="Most used languages" />
-</a>
-
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-<img width="58%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Greyy2&theme=github_dark" alt="Profile details" />
-</a>
-
-<br>
-
-<img width="98%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:4F46E5,100:C026D3&height=80&section=footer&reversal=false" alt="Stats wave" />
+<img src="./profile/stats.svg" width="98%" alt="Grey GitHub stats" />
 
 </div>
