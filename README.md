@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://www.pinterest.com/pin/7670261861427920/">
+<a href="https://pin.it/3FlDOc6dG">
 <img src="https://img.shields.io/badge/Watch%20Pinterest%20Video-111111?style=for-the-badge&logo=pinterest&logoColor=E60023" alt="Pinterest video" />
 </a>
 
@@ -46,9 +46,11 @@
 
 </p>
 
-<img align="right" width="220" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" alt="Grey avatar" />
-
 # About Me. 🧠
+
+---
+
+<img align="right" width="300" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif" alt="Grey avatar" />
 
 - 💻 AI Developer from Thai Nguyen, Viet Nam.
 - 🎓 Student at ICTU.

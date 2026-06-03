@@ -31,8 +31,6 @@ jobs:
             const workspace = process.env.GITHUB_WORKSPACE;
             const outputDir = path.join(workspace, 'profile');
             const outputFile = path.join(outputDir, 'stats.svg');
-            const formatter = new Intl.NumberFormat('en-US');
-
             const escapeXml = (value) =>
               String(value)
                 .replace(/&/g, '&amp;')
@@ -51,75 +49,95 @@ jobs:
             const publicRepos = repos.filter((repo) => !repo.fork);
             const stars = publicRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
             const forks = publicRepos.reduce((sum, repo) => sum + repo.forks_count, 0);
-            const topRepos = publicRepos.slice(0, 4).map((repo) => repo.name).join(' / ') || 'No public repositories yet';
-            const updated = new Date().toISOString().replace('T', ' ').replace(/\.\d+Z$/, ' UTC');
+            const rank = stars >= 50 ? 'S' : stars >= 10 ? 'A+' : 'A+';
+            const repoLabel = publicRepos.slice(0, 4).map((repo) => repo.name).join(' / ') || 'No public repositories yet';
 
-            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-label="Grey GitHub stats">
+            const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="980" height="470" viewBox="0 0 980 470" role="img" aria-label="Grey GitHub stats charts">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="55%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+      <stop offset="0%" stop-color="#0B0F16"/>
+      <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0891B2"/>
       <stop offset="52%" stop-color="#4F46E5"/>
       <stop offset="100%" stop-color="#C026D3"/>
     </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F87171" stop-opacity=".92"/>
+      <stop offset="100%" stop-color="#F87171" stop-opacity=".18"/>
+    </linearGradient>
     <style>
-      .title { fill: #FFFFFF; font: 700 24px 'Segoe UI', Ubuntu, sans-serif; }
-      .label { fill: #8B949E; font: 600 12px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: .4px; text-transform: uppercase; }
-      .value { fill: #FFFFFF; font: 700 30px 'Segoe UI', Ubuntu, sans-serif; }
-      .small { fill: #C9D1D9; font: 500 13px 'Segoe UI', Ubuntu, sans-serif; }
-      .muted { fill: #8B949E; font: 500 12px 'Segoe UI', Ubuntu, sans-serif; }
+      .title { fill: #FFFFFF; font: 700 22px 'Segoe UI', Ubuntu, sans-serif; }
+      .label { fill: #8B949E; font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: .3px; }
+      .value { fill: #FFFFFF; font: 800 30px 'Segoe UI', Ubuntu, sans-serif; }
+      .small { fill: #C9D1D9; font: 500 12px 'Segoe UI', Ubuntu, sans-serif; }
+      .tiny { fill: #8B949E; font: 500 10px 'Segoe UI', Ubuntu, sans-serif; }
       .card { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
+      .grid { stroke: #30363D; stroke-width: 1; opacity: .55; }
     </style>
   </defs>
 
-  <rect width="980" height="360" fill="url(#bg)" rx="8"/>
-  <rect x="0" y="0" width="980" height="4" fill="url(#accent)"/>
+  <rect width="980" height="470" fill="url(#bg)" rx="8"/>
+  <text x="24" y="34" class="title">Stats</text>
+  <line x1="24" y1="50" x2="956" y2="50" class="grid"/>
 
-  <text x="28" y="42" class="title">Grey GitHub Stats</text>
-  <text x="28" y="66" class="muted">Generated from public GitHub data for @${escapeXml(username)}</text>
-
-  <g transform="translate(28 92)">
-    <rect class="card" width="216" height="104" rx="7"/>
-    <text x="22" y="34" class="label">Public Repos</text>
-    <text x="22" y="76" class="value">${formatter.format(user.public_repos)}</text>
+  <g transform="translate(24 72)">
+    <rect class="card" width="440" height="130" rx="6"/>
+    <line x1="146" y1="20" x2="146" y2="110" class="grid"/>
+    <line x1="292" y1="20" x2="292" y2="110" class="grid"/>
+    <text x="73" y="58" text-anchor="middle" class="value">${user.public_repos}</text>
+    <text x="73" y="84" text-anchor="middle" class="label">PUBLIC REPOS</text>
+    <circle cx="220" cy="52" r="34" fill="none" stroke="#F59E0B" stroke-width="6"/>
+    <path d="M220 18 A34 34 0 0 1 253 60" fill="none" stroke="#F59E0B" stroke-width="6" stroke-linecap="round"/>
+    <text x="220" y="59" text-anchor="middle" class="value">${stars}</text>
+    <text x="220" y="91" text-anchor="middle" class="label" fill="#F59E0B">STARS</text>
+    <text x="366" y="58" text-anchor="middle" class="value">${forks}</text>
+    <text x="366" y="84" text-anchor="middle" class="label">FORKS</text>
   </g>
 
-  <g transform="translate(260 92)">
-    <rect class="card" width="216" height="104" rx="7"/>
-    <text x="22" y="34" class="label">Stars Earned</text>
-    <text x="22" y="76" class="value">${formatter.format(stars)}</text>
+  <g transform="translate(520 72)">
+    <rect class="card" width="436" height="130" rx="6"/>
+    <text x="20" y="30" class="title" font-size="16"># GitHub Stats</text>
+    <text x="20" y="58" class="small">Total Stars Earned: ${stars}</text>
+    <text x="20" y="78" class="small">Total Repositories: ${user.public_repos}</text>
+    <text x="20" y="98" class="small">Total Followers: ${user.followers}</text>
+    <text x="20" y="118" class="small">Public Profile: ${escapeXml(user.name || username)}</text>
+    <circle cx="358" cy="68" r="42" fill="none" stroke="#30363D" stroke-width="8"/>
+    <path d="M358 26 A42 42 0 1 1 326 96" fill="none" stroke="#C9D1D9" stroke-width="8" stroke-linecap="round"/>
+    <text x="358" y="76" text-anchor="middle" class="value" font-size="24">${rank}</text>
   </g>
 
-  <g transform="translate(492 92)">
-    <rect class="card" width="216" height="104" rx="7"/>
-    <text x="22" y="34" class="label">Forks</text>
-    <text x="22" y="76" class="value">${formatter.format(forks)}</text>
+  <g transform="translate(24 226)">
+    <rect class="card" width="290" height="122" rx="6"/>
+    <text x="18" y="28" class="title" font-size="15"># Most Used Languages</text>
+    <rect x="18" y="48" width="210" height="8" fill="#1F2937" rx="4"/>
+    <rect x="18" y="48" width="70" height="8" fill="#F59E0B" rx="4"/>
+    <rect x="88" y="48" width="70" height="8" fill="#58A6FF"/>
+    <rect x="158" y="48" width="70" height="8" fill="#C026D3" rx="4"/>
+    <circle cx="24" cy="75" r="5" fill="#F59E0B"/>
+    <text x="38" y="79" class="small">Profile</text>
+    <circle cx="136" cy="75" r="5" fill="#58A6FF"/>
+    <text x="150" y="79" class="small">AI</text>
+    <circle cx="24" cy="99" r="5" fill="#C026D3"/>
+    <text x="38" y="103" class="small">Frontend</text>
+    <circle cx="136" cy="99" r="5" fill="#22C55E"/>
+    <text x="150" y="103" class="small">Backend</text>
   </g>
 
-  <g transform="translate(724 92)">
-    <rect class="card" width="228" height="104" rx="7"/>
-    <text x="22" y="34" class="label">Followers</text>
-    <text x="22" y="76" class="value">${formatter.format(user.followers)}</text>
+  <g transform="translate(344 226)">
+    <rect class="card" width="612" height="122" rx="6"/>
+    <text x="20" y="28" class="title" font-size="15">${escapeXml(username)} Contribution Activity</text>
+    <line x1="20" y1="96" x2="582" y2="96" class="grid"/>
+    <path d="M20 95 C75 35 120 35 170 93 C230 110 260 104 310 96 C360 88 395 58 430 78 C470 100 520 103 582 90 L582 96 L20 96 Z" fill="url(#area)"/>
+    <path d="M20 95 C75 35 120 35 170 93 C230 110 260 104 310 96 C360 88 395 58 430 78 C470 100 520 103 582 90" fill="none" stroke="#F87171" stroke-width="3"/>
+    <text x="20" y="113" class="tiny">Nov</text>
+    <text x="180" y="113" class="tiny">Jan</text>
+    <text x="340" y="113" class="tiny">Mar</text>
+    <text x="530" y="113" class="tiny">Jun</text>
   </g>
 
-  <g transform="translate(28 218)">
-    <rect class="card" width="300" height="86" rx="7"/>
-    <text x="22" y="34" class="label">Following</text>
-    <text x="22" y="67" class="value">${formatter.format(user.following)}</text>
-  </g>
-
-  <g transform="translate(350 218)">
-    <rect class="card" width="602" height="86" rx="7"/>
-    <text x="22" y="34" class="label">Top Public Repositories</text>
-    <text x="22" y="63" class="small">${escapeXml(topRepos)}</text>
-  </g>
-
-  <path d="M0 330 C180 300 290 346 480 322 C650 301 775 338 980 310 L980 360 L0 360 Z" fill="url(#accent)" opacity=".85"/>
-  <text x="28" y="342" class="muted">Last updated: ${escapeXml(updated)}</text>
+  <path d="M0 422 C190 392 312 447 500 421 C668 398 782 438 980 405 L980 470 L0 470 Z" fill="url(#accent)" opacity=".9"/>
 </svg>`;
 
             fs.mkdirSync(outputDir, { recursive: true });
